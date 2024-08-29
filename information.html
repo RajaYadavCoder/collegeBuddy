@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page</title>
+    <link rel="stylesheet" href="information.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <img src="image/college-buddy-logo (1).png" />
+        <a href="/login.html"><button class="log-btn">Log in</button></a>
+      </div>
+      <div class="information-container">
+        <div class="information">
+          <h1>Register</h1>
+          <p class="information-p">Welcome to College Buddy!</p>
+          <div class="line">
+            <div class="line3">
+              <a class="line4" href="#">step1</a>
+            </div>
+          </div>
+          <form action="">
+            <select  id="option1" name="university">
+              <option value="" disabled selected>Select your unviersity or college</option>
+              <option value="apple">Aryabhatta knowledge University</option>
+              <option value="banana">Banana</option>
+              <option value="cherry">Cherry</option>
+            </select>
+            <select id="option2" name="university">
+              <option value="" disabled selected>What is your Course?</option>
+              <option value="apple">Apple</option>
+              <option value="banana">Banana</option>
+              <option value="cherry">Cherry</option>
+            </select>
+            <select id="option3" name="university">
+              <option value="" disabled selected>In which semester you are in?</option>
+              <option value="apple">Apple</option>
+              <option value="banana">Banana</option>
+              <option value="cherry">Cherry</option>
+            </select>
+            <button class="information-btn" onclick="func1()">start learning </button>
+            
+          </form>
+          <div>
+            <a class="go-back-btn" href="sign.html">Go back previous step</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#">©2024 College Buddy</a>
+      <a href="#">Term & Condition</a>
+      <a href="#">PrivacyPolicy</a>
+      <a href="#">Contact</a>
+    </footer>
+    <script src="information.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reset Password</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <img src="image/college-buddy-logo (1).png" />
+        <a href="/sign.html"> <button class="log-btn">Log in</button></a>
+      </div>
+      <div class="reset_container">
+        <div class="resetBox">
+          <h1>Reset Password!</h1>
+          <p class="back">Enter your email to receive an OTP.</p>
+          <div class="form">
+            <form id="resetForm">
+              <input
+                type="email"
+                name="email"
+                id="resetEmail"
+                placeholder="Email"
+                required
+              />
+              <button type="button" class="reset-btn" onclick="sendOTP()">
+                Send OTP
+              </button>
+            </form>
+            <form id="otpForm" style="display: none">
+              <input
+                type="text"
+                name="otp"
+                id="otp"
+                placeholder="Enter OTP"
+                required
+              />
+              <input
+                type="password"
+                name="newPassword"
+                id="newPassword"
+                placeholder="New Password"
+                required
+              />
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                placeholder="confirmPassword"
+                required
+              />
+              <button type="button" class="reset-btn" onclick="resetPassword()">
+                Reset Password
+              </button>
+            </form>
+          </div>
+          <div class="drow-line">
+            <div class="line-drow"></div>
+            <p class="or">or</p>
+            <div class="line-drow"></div>
+          </div>
+          <div class="google">
+            <div class="googlebtn">
+              <i class="fa-brands fa-google"></i>Continue With Google
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#">©2024 College Buddy</a>
+      <a href="#">Term & Condition</a>
+      <a href="#">PrivacyPolicy</a>
+      <a href="#">Contact</a>
+    </footer>
+    <script src="reset.js"></script>
+  </body>
+</html>

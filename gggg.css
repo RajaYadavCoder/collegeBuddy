@@ -1,0 +1,308 @@
+/* Basic reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+  }
+  
+  nav .logo {
+    margin-left: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  nav ul li:hover {
+    background-color: #f0f0f0;
+    padding: 15px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  .btn1 {
+    padding: 16px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #1ba616;
+    color: #fff;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+  }
+  
+  .btn1:hover {
+    background-color: #090909;
+  }
+  
+ 
+  /* Content Styles */
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 375px;
+  }
+  
+  .content p {
+    font-size: 88px;
+    line-height: 90px;
+    font-weight: 300;
+    color: #1e1e1e;
+  }
+  
+  .content span {
+    color: #09be03;
+  }
+  
+  /* WhatsApp Button */
+  .WhatApp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+  
+  .WhatApp-btn {
+    width: 450px;
+    font-size: 24px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #188815;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .WhatApp-btn:hover {
+    background-color: #090909;
+  }
+  
+  .WhatApp-btn i {
+    padding-right: 10px;
+  }
+  
+  /* Box 3 Styles */
+  .box3 {
+    width: 100%;
+    background-color: #ececec;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .handing {
+    font-size: 64px;
+    font-family: serif;
+    padding-top: 35px;
+  }
+  
+  .handing span {
+    color: #1ba616;
+    margin: 0 10px;
+  }
+  
+  /* Second Container Styles */
+  .second-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .group-image {
+    width: auto;
+    border: 5px solid rgba(121, 176, 88, 1);
+    border-radius: 20px;
+  }
+  
+  .image2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .man-logo, .youtube-logo {
+    margin: 20px;
+  }
+  
+  /* Course Box Styles */
+  .course-box {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .course-button p {
+    font-size: 64px;
+  }
+  
+  .course-button p span {
+    color: #1ba616;
+  }
+  
+  .course-btn {
+    width: 450px;
+    font-size: 24px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #188815;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-btn:hover {
+    background-color: #090909;
+  }
+  
+  /* Student Opinion Styles */
+  .student_opinion {
+    width: 100%;
+    background-color: rgba(236, 236, 236, 1);
+    padding: 50px 0;
+  }
+  
+  .student-h {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .student_opinion_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .students_opinion_box {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid rgb(24, 161, 31);
+    border-radius: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .arrow {
+    margin-bottom: 10px;
+  }
+  
+  .opinion {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 77px;
+    height: 73px;
+    border: 3px solid rgb(36, 133, 41);
+    border-radius: 50%;
+  }
+  
+  /* Book Resources Styles */
+  .Book-box {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .freeResources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .book {
+    width: 300px;
+  }
+  
+  .resouces {
+    max-width: 500px;
+  }
+  
+  .resouces-p {
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(30, 30, 30, 1);
+  }
+  
+  .resouces span {
+    color: rgba(121, 176, 88, 1);
+  }
+  
+  .unlock-btn {
+    width: 250px;
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .content p {
+      font-size: 48px;
+      margin-top: 150px;
+    }
+  
+    .WhatApp-btn, .course-btn {
+      width: 100%;
+      font-size: 20px;
+      padding: 15px;
+    }
+  
+    .student_opinion_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .students_opinion_box {
+      width: 90%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .footer-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

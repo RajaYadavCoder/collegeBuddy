@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <img src="image/college-buddy-logo (1).png" alt="College Buddy Logo" />
+        <a href="/sign.html"><button class="log-btn">Sign Up</button></a>
+      </div>
+      <div class="login_container">
+        <div class="loginBox">
+          <h1>Login</h1>
+          <p class="back">Welcome back!</p>
+          <div class="form">
+            <form id="loginForm" onsubmit="return false;">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <p class="Reset-pass">
+                Don't remember your password?
+                <a href="/reset.html">Reset Here</a>
+              </p>
+              <br />
+              <button type="button" class="login-btn" onclick="fun1()">
+                Start Learning Now
+              </button>
+            </form>
+          </div>
+          <p class="create">
+            New here? <a href="/sign.html">Create your account now</a>
+          </p>
+          <div class="drow-line">
+            <div class="line-drow"></div>
+            <p class="or">or</p>
+            <div class="line-drow"></div>
+          </div>
+          <div class="google">
+            <div class="googlebtn">
+              <i class="fa-brands fa-google"></i> Continue With Google
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#">©2024 College Buddy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact</a>
+    </footer>
+    <script src="login.js"></script>
+  </body>
+</html>
